@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+
 gem 'rails_12factor', group: :production
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -35,8 +37,6 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
-gem 'will_paginate', '~> 3.1.0'
-gem 'will_paginate-bootstrap'
 end
 
 # Use ActiveModel has_secure_password
