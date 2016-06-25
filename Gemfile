@@ -9,7 +9,8 @@ gem 'rails', '4.0.1'
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
-
+ gem 'kaminari'
+ gem 'simple_form'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
@@ -37,6 +38,8 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+
+
 end
 
 # Use ActiveModel has_secure_password
