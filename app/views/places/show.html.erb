@@ -94,16 +94,5 @@
 </button>
 
 </div>
-<div class= "clear"></div>
-<% @place.comments.each do |comment| %>
-  <div>
-    <div class= "col-xs-12 col-sm-6">
-    <blockquote>
-      <% if comment.humanized_ratings.present? %>
-       <b><%= comment.rating %></b> -
-       <% end %>
-         <%= comment.message %>
-       <small><%= comment.user.email %></small>
-    </blockquote>
-  </div>
+
 <% end %>
