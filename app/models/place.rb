@@ -7,6 +7,6 @@ class Place < ActiveRecord::Base
  after_validation :geocode
 
   validates :name, length: { minimum: 3}, presence: true
-  validates :address, length: { minimum: 10}, presence: true
-  validates :description, presence: true, length: {minimum: 8}
+  validates :address, length: { minimum: 5}, presence: true
+  validates :description, presence: true, length: {minimum: 4}
 end
